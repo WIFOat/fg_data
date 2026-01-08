@@ -7,6 +7,7 @@ library(openxlsx)
 options(scipen = 9999)
 
 version <- format(Sys.time(), "%Y%m")
+version <- "202512"
 
 ampel <- read_excel(paste0(
   "//int.wsr.at/Nabu/Themen/Surveys/Konjunkturtest/ktflash/Flash",
